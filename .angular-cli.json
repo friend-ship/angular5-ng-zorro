@@ -18,7 +18,9 @@
         "testTsconfig": "tsconfig.spec.json",
         "prefix": "ux",
         "styles": [],
-        "scripts": [],
+        "scripts": [
+            "../node_modules/d3/dist/d3.js"
+        ],
         "environmentSource": "environments/environment.ts",
         "environments": {
             "dev": "environments/environment.ts",

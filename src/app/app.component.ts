@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'ux-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `<router-outlet></router-outlet>`
 })
 export class AppComponent {
   title = 'app';
